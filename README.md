@@ -2,9 +2,9 @@ Of course! Here's a **professional and beautiful `README.md`** for your **Bankin
 
 ---
 
-# 🏦 Banking Assistant AI
+# 🏦 Fintria
 
-Welcome to the **Banking Assistant AI Chatbot** project — an intelligent assistant built with **Streamlit**, **FastAPI** (REST), **gRPC**, **WebSocket**, and **Langchain**, designed to provide banking services like balance inquiries, loan checks, transaction history, and more through a conversational interface.
+Welcome to the **Fintria AI** project — an intelligent assistant built with **Streamlit**, **FastAPI** (REST), **gRPC**, **WebSocket**, and **Langchain**, designed to provide banking services like balance inquiries, loan checks, transaction history, and more through a conversational interface.
 
 This chatbot is engineered with **workflow principles** for reliable, modular, and scalable interactions, mimicking real-world banking operations.
 
@@ -184,10 +184,3 @@ Contributions are welcome!
 Please open issues and pull requests to improve workflows, models, or APIs.
 
 ---
-
-# 🌟 Ready to build the future of banking conversations! 🌟
-
----
-
-Would you also like me to generate a **README badge version** (with shield icons like "Python Version", "Streamlit", "License", "API Server Running")? 🚀 It would make it look even cooler!  
-Want me to? 🎨
