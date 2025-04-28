@@ -5,7 +5,7 @@ from src.core.services.banking_chatbot_service import BankingChatbotService
 
 # Streamlit view (pure presentation layer)
 
-st.title("🏦 Banking Chatbot Assistant")
+st.title("🏦 Fintria AI")
 
 if "chatbot_service" not in st.session_state:
     try:
