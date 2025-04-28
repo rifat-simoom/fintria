@@ -1,0 +1,10 @@
+streamlit~=1.44.1
+llama_index
+
+protobuf~=5.29.4
+fastapi~=0.115.12
+pydantic~=2.11.3
+grpcio~=1.71.0
+llama-index-core~=0.12.33.post1
+setuptools~=68.1.2
+uvicorn~=0.34.2

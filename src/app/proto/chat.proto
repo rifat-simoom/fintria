@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+service BankingChatbot {
+  rpc Chat (ChatRequest) returns (ChatResponse);
+}
+
+message ChatRequest {
+  string user_message = 1;
+}
+
+message ChatResponse {
+  string bot_response = 1;
+}
