@@ -34,7 +34,7 @@ This chatbot is engineered with **workflow principles** for reliable, modular, a
 
 ```mermaid
 flowchart TD
-    A[User Input] --> B[Streamlit Frontend / API Clients (REST/gRPC/WebSocket)]
+    A[User Input] --> B["Streamlit Frontend / REST / gRPC / WebSocket"]
     B --> C[Chatbot Service]
     C --> D[Document Loader]
     C --> E[LLM Client]
