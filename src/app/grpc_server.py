@@ -1,7 +1,9 @@
 import grpc
+import logging
 from concurrent import futures
 import chat_pb2
 import chat_pb2_grpc
+from rich.logging import RichHandler
 from src.core.services.simple_directory_loader import SimpleDirectoryLoader
 from src.core.services.ollama_llm_client import OllamaLLMClient
 from src.core.services.banking_chatbot_service import BankingChatbotService
@@ -20,8 +22,16 @@ class BankingChatbotServicer(chat_pb2_grpc.BankingChatbotServicer):
 def serve():
     server = grpc.server(futures.ThreadPoolExecutor(max_workers=10))
     chat_pb2_grpc.add_BankingChatbotServicer_to_server(BankingChatbotServicer(), server)
-    server.add_insecure_port('[::]:50051')
+    port = 50051
+    server.add_insecure_port(f'[::]:{port}')
     server.start()
+    logging.basicConfig(
+        level=logging.INFO,
+        format="%(message)s",
+        datefmt="[%X]",
+        handlers=[RichHandler()]
+    )
+    logging.info(f"gRPC Server running at [::]:{port}")
     server.wait_for_termination()
 
 if __name__ == "__main__":

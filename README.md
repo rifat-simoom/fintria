@@ -170,6 +170,10 @@ ws.run_forever()
 - Alert systems for suspicious activities
 
 ---
+## 📽️ Live Demo
+[🎥 Watch Demo Video](media/demo.mp4)
+> 💡 Smart Conversations | 🏦 Banking Knowledge | 🔥 Built with LLMs, Workflows, and FinTech APIs
+
 
 ## 📜 License
 
