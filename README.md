@@ -1,6 +1,3 @@
-Of course! Here's a **professional and beautiful `README.md`** for your **Banking Assistant AI Chatbot**, including sections like **project overview, features, workflows, architecture, setup instructions, and examples**.
-
----
 
 # 🏦 Fintria
 
